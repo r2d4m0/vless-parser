@@ -1,0 +1,6 @@
+source/__pycache__/
+source/githubmirror/
+.env
+*.log
+githubmirror/26-whitelist-vless.txt
+githubmirror/26-whitelist-vless-live.txt
