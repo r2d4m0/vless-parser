@@ -18,7 +18,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+SOURCE_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = SOURCE_ROOT.parent
+DOMAINS_PATH = SOURCE_ROOT / "domains.txt"
 DEFAULT_OUTPUT_PATH = REPO_ROOT / "githubmirror" / "whitelist-vless.txt"
 DEFAULT_RELIABLE_OUTPUT_PATH = REPO_ROOT / "githubmirror" / "ru-sni-best-vless.txt"
 GITHUB_AUTH_HOSTS = {"github.com", "raw.githubusercontent.com", "api.github.com"}
@@ -27,6 +29,8 @@ REPO_URL = "https://github.com/r2d4m0/vless-parser"
 WHITELIST_SOURCES = [
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt",
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt",
+    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt",
+    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
     "https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_universal.txt",
     "https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt",
     "https://raw.githubusercontent.com/EtoNeYaProject/etoneyaproject.github.io/refs/heads/main/2",
@@ -34,45 +38,6 @@ WHITELIST_SOURCES = [
     "https://white-lists.vercel.app/api/filter?code=RU",
     "https://wlrus.lol/confs/selected.txt",
 ]
-
-RU_SNI_DOMAINS = {
-    "2gis.com",
-    "2gis.ru",
-    "api.avito.ru",
-    "api-maps.yandex.ru",
-    "avito.ru",
-    "avito.st",
-    "dzen.ru",
-    "gosuslugi.ru",
-    "hh.ru",
-    "kinopoisk.ru",
-    "mail.ru",
-    "max.ru",
-    "m.vk.ru",
-    "ok.ru",
-    "ozon.ru",
-    "ozone.ru",
-    "pikabu.ru",
-    "pochta.ru",
-    "rbc.ru",
-    "rzd.ru",
-    "rutube.ru",
-    "sberbank.ru",
-    "sun6-20.userapi.com",
-    "sun6-21.userapi.com",
-    "sun6-22.userapi.com",
-    "sun9-101.userapi.com",
-    "sun9-38.userapi.com",
-    "tbank.ru",
-    "vk.com",
-    "vk.ru",
-    "wb.ru",
-    "wildberries.ru",
-    "ya.ru",
-    "yandex.com",
-    "yandex.net",
-    "yandex.ru",
-}
 
 ALLOWED_PROTOCOL = "vless"
 ALLOWED_SECURITY = {"reality", "tls"}
@@ -261,6 +226,24 @@ def normalize_domain(value: str | None) -> str:
     if sep and host_candidate and maybe_port.isdigit():
         normalized = host_candidate
     return normalized
+
+
+def load_domains(path: Path) -> set[str]:
+    if not path.exists():
+        raise FileNotFoundError(f"Domains file not found: {path}")
+
+    domains: set[str] = set()
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        normalized = normalize_domain(line)
+        if normalized:
+            domains.add(normalized)
+    return domains
+
+
+RU_SNI_DOMAINS = load_domains(DOMAINS_PATH)
 
 
 def get_host_kind(host: str) -> str:
