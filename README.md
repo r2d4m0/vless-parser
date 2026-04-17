@@ -3,6 +3,7 @@
 [![Update CFG](https://github.com/r2d4m0/vless-parser/actions/workflows/auto_update.yml/badge.svg)](https://github.com/r2d4m0/vless-parser/actions/workflows/auto_update.yml)
 
 Минималистичный `VLESS` parser для белых списков.
+fork https://github.com/AvenCores/goida-vpn-configs
 
 Скрипт обновляет два файла:
 - `githubmirror/whitelist-vless.txt` — полный whitelist-список
