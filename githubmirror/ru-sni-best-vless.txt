@@ -1,13 +1,11 @@
 # profile-title: VLESS Parser | RU SNI Best
 # profile-update-interval: 9
 # profile-web-page-url: https://github.com/r2d4m0/vless-parser
-# profile-desc: RU-SNI shortlist; Parsed by VLESS Parser; Updated: 2026-04-18 13:42 UTC
-# profile-count: 123
+# profile-desc: RU-SNI shortlist; Parsed by VLESS Parser; Updated: 2026-04-18 13:55 UTC
+# profile-count: 121
 
 vless://eb13c182-d224-43b9-a25d-5f5ca751ae93@de.xtraxobot.ru:8443?type=tcp&encryption=none&security=reality&pbk=WlaEmqzcpciVL0merjOOfZ-Eas4ZTGT2Bd5E3aJrN2c&fp=chrome&sni=cdn.s3.yandex.net&sid=63772b60&spx=%25252525252525252525252F&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%E2%80%94%20%7C%20466%20%7C%20%40ByeWhiteLists2
 vless://15041021-33ff-447e-bdd2-5a6f226f5ba2@de3.vpn-club-service.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=yDPh2enztmRE8NH294bVNoILyZaQmZnH1gBvrd9RGQo&sid=a1b2c3d4&sni=help.max.ru#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%E2%80%94%20%7C%2021%20%7C%20%40ByeWhiteLists2
-vless://d737f30e-8537-4a03-b441-bde67a0c241b@185.130.113.145:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw&sid=513b0a#171. VLESS | SNI: max.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
-vless://b960ed61-d7b0-4c6d-a39f-484726e2ad66@217.16.23.87:443?security=reality&sni=sun6-21.userapi.com&fp=firefox&pbk=PZajgWT2dtEu0Avc2QWiZELK9wDQW9p9vvcckfQBfCE&sid=632cd48001bdb09a&type=tcp&flow=xtls-rprx-vision#1.%20VLESS%20%7C%20SNI%3A%20sun6-21.userapi.com%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
 vless://49e96f3d-e670-4073-ba92-16b6a4a7b621@89.208.87.128:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=analytics.vk.ru&pbk=kAfACVGlqkxdp5T0pF_8rP8ElZ6mYSNnpP1NDnSr9H8&sid=deadbeefcafebaab&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20CIDR%20%7C%20768%20%7C%20%40ByeWhiteLists2
 vless://c6b6b8e0-7a68-4c3b-9aef-ea824322e9cb@85.198.103.99:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=X_IQ_IwiTWzaGOS5kFDEeuCFUjk7LCsIvSL_Iv1DO30&sid=866dbd3bdf&sni=api-maps.yandex.ru&spx=%25252525252525252525252525252525252F#%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20%E2%80%94%20%7C%20365%20%7C%20%40ByeWhiteLists2
 vless://56022eef-4ade-4240-b0cc-eb006797e7ac@94.126.207.245:443?security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=V32osv0u9T3QItvyk4UgK-mjJuXkXLn4u_3pbk8eNgs&sid=9339&sni=api.vk.com&packetencoding=xudp#%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20CIDR%20%7C%20285%20%7C%20%40ByeWhiteLists2
