@@ -1,8 +1,8 @@
 # profile-title: VLESS Parser | RU SNI Best
 # profile-update-interval: 9
 # profile-web-page-url: https://github.com/r2d4m0/vless-parser
-# profile-desc: RU-SNI shortlist; Parsed by VLESS Parser; Updated: 2026-04-18 21:59 UTC
-# profile-count: 133
+# profile-desc: RU-SNI shortlist; Parsed by VLESS Parser; Updated: 2026-04-18 22:02 UTC
+# profile-count: 135
 
 vless://ef413b60-7df5-4503-a2ce-42f0e28d700b@185.156.177.30.alexanderoff.ru:443?type=tcp&security=reality&encryption=none&sni=m.vk.com&fp=chrome&pbk=4yZUq099c5aJJoQ4Q6aEazA1dva2C4Whn6fkimbHskw&sid=de7f4cb07606de1f&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5BSNI-RU%5D%20m.vk.com
 vless://72985048-3772-11f1-8881-0052adf3d13e@7.borshclick.tech:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=DEZum6o0PHaLJPYz8sVMiC-_BLlLraHO-auJvJVKZEw&sid=eca26c4b&sni=www.vk.ru#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
@@ -10,7 +10,9 @@ vless://3ced4bd2-fbf7-4ee5-9adf-3e1517d294a1@45.84.1.123:443?security=reality&en
 vless://eb13c182-d224-43b9-a25d-5f5ca751ae93@de.xtraxobot.ru:8443?type=tcp&encryption=none&security=reality&pbk=WlaEmqzcpciVL0merjOOfZ-Eas4ZTGT2Bd5E3aJrN2c&fp=chrome&sni=cdn.s3.yandex.net&sid=63772b60&spx=%25252525252525252525252F&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%E2%80%94%20%7C%20466%20%7C%20%40ByeWhiteLists2
 vless://15041021-33ff-447e-bdd2-5a6f226f5ba2@de3.vpn-club-service.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=yDPh2enztmRE8NH294bVNoILyZaQmZnH1gBvrd9RGQo&sid=a1b2c3d4&sni=help.max.ru#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%E2%80%94%20%7C%2021%20%7C%20%40ByeWhiteLists2
 vless://19ef3d02-1c55-4fec-9794-6def8cbac396@158.160.241.163:443?type=tcp&security=reality&encryption=none&sni=kinopoisk.ru&fp=chrome&pbk=WBgoI3fGosyeKSKRdbBZ8mGQfDva_Nu4NL3chZ1VFEs&sid=6f0c2a9d&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D%20YA
+vless://d737f30e-8537-4a03-b441-bde67a0c241b@185.130.113.145:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw&sid=513b0a#171. VLESS | SNI: max.ru | CIDR: VK | TG: @wlrustg | Thanks: @rkp_channel
 vless://321c91b8-0395-4dd5-a7d5-9df5adc5c32b@217.16.29.243:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=sun1-26.userapi.com&pbk=3BzJ7mIMm_8w9UEDlw3zDhNLlBIkfRaMBPDFW8vAJyI&sid=e2e32fa9a5033818#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D%20VK
+vless://b960ed61-d7b0-4c6d-a39f-484726e2ad66@217.16.23.87:443?security=reality&sni=sun6-21.userapi.com&fp=firefox&pbk=PZajgWT2dtEu0Avc2QWiZELK9wDQW9p9vvcckfQBfCE&sid=632cd48001bdb09a&type=tcp&flow=xtls-rprx-vision#1.%20VLESS%20%7C%20SNI%3A%20sun6-21.userapi.com%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
 vless://TMG_fb05c718425@45.140.204.33:443?type=xhttp&security=reality&encryption=none&fp=chrome&pbk=pVqZEt6EV2bFAyeugIZWGUabTI-MWkPokcN3BFbGl0s&sid=2eb085c1de19&sni=www.kinopoisk.ru&path=/JMjFqdkAswkJ&host=www.kinopoisk.ru&mode=auto&spx=/#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5BSNI-RU%5D%20www.kinopoisk.ru
 vless://72985048-3772-11f1-8881-0052adf3d13e@77.110.104.88:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=www.vk.ru&pbk=DEZum6o0PHaLJPYz8sVMiC-_BLlLraHO-auJvJVKZEw&sid=eca26c4b#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
 vless://90c9c25c-df6c-4438-83d3-ef97166a9184@72.56.237.204:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yandex.ru&fp=chrome&security=reality&pbk=lRk6p0r1iRelehqPuqRNLgODQeUQvtOxufdPuorG5ng&sid=40c9697ef67a03fb&packetEncoding=xudp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5BSNI-RU%5D%20yandex.ru
